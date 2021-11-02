@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name":"Tamagotchi",
+        "brand":"Bandai"
+    },
+    {
+        "id":2,
+        "name":"Gameboy",
+        "brand":"Nintendo"
+    },
+    {
+        "id":3,
+        "name":"Polaroid",
+        "brand":"Kodak"
+    }
+]

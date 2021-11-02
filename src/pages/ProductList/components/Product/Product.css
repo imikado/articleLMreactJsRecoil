@@ -1,0 +1,18 @@
+.Product{
+
+    float:left;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin:5px;
+    padding:10px;
+
+}
+.Product  h2{
+    margin-top:0px;
+}
+.Product  h3{
+    margin-top:0px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+}

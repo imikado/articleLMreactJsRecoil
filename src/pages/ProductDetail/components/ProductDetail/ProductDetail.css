@@ -1,0 +1,14 @@
+.ProductDetail{
+    padding:10px;
+}
+.ProductDetail h3{
+    font-style: italic;
+}
+.ProductDetail .price{
+
+    text-align: right;
+    font-weight: bold;
+}
+.ProductDetail .basketButton{
+    text-align: right;
+}

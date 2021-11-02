@@ -1,0 +1,20 @@
+.basketPage table{
+
+    width:100%;
+    border-collapse: collapse;
+
+}
+.basketPage table thead th{
+    border-bottom: 2px solid #000;
+}
+
+.basketPage table thead{
+    background-color: darkviolet;
+    color: white;
+}
+.basketPage table td,.basketPage table th{
+    padding:4px;
+}
+.basketPage table td{
+    border-bottom: 1px dotted #000;
+}
