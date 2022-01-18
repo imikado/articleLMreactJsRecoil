@@ -1,6 +1,6 @@
 import './App.css';
 
-import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 
 import Menu from './components/Menu/Menu';
 import BasketCount from './components/BasketCount/BasketCount';
@@ -21,24 +21,28 @@ function App() {
 
           <BasketCount></BasketCount>
           
-          <Switch>
-            <Route exact path="/">
+          <Routes>
+          <Route exact path="/"  element={
               <HomePage />
-            </Route>
+	  }
+	  />
 
-            <Route  path="/products">
+          <Route  path="/products" element={
               <ProductListPage />
-            </Route>
+	  }
+	  />
 
-            <Route  path="/product/:id">
+          <Route  path="/product/:id"  element={
               <ProductDetailPage />
-            </Route>
+          }
+	  />
 
-            <Route  path="/basket">
+          <Route  path="/basket"  element={
               <BasketPage />
-            </Route>
+	  }
+	  />
 
-          </Switch>
+          </Routes>
         </Router>
       
     </div>
